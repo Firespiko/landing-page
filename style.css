@@ -1,0 +1,33 @@
+html {
+    height: 100%;
+}
+    
+body {
+    height : 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0px;
+    padding: 0px;
+}
+
+.header {
+    display: flex;
+    flex-direction: row wrap;
+    background-color: #1F2937;
+}
+
+.header .logo {
+    color: white;
+    display:flex;
+    justify-content: center;
+}
+
+.footer {
+    background-color: #1F2937;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px;
+}
